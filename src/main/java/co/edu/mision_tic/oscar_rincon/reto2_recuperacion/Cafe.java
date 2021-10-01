@@ -29,6 +29,7 @@ public class Cafe {
         this.precioBase = precioBase;
         this.peso = peso;
         comprobarCalidadC(calidadC);
+        this.tipoCafe = "cafe";
     }
 
     public void comprobarCalidadC(Character calidadC) {
