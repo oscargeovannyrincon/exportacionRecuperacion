@@ -12,6 +12,7 @@ public class CafeExportacion extends Cafe {
         this.calidadC = CALIDAD_C_BASE;
         this.cif=CIF_BASE;
         this.verde=VERDE;
+        this.tipoCafe="exportacion";
     }
 
     public CafeExportacion(Double precioBase, Integer peso) {
@@ -19,12 +20,14 @@ public class CafeExportacion extends Cafe {
         this.calidadC = CALIDAD_C_BASE;
         this.cif=CIF_BASE;
         this.verde=VERDE;
+        this.tipoCafe="exportacion";
     }
 
     public CafeExportacion(Double precioBase, Integer peso, Character calidadC, Integer cif, Boolean verde) {
         super(precioBase, peso, calidadC);
         this.cif = cif;
         this.verde = verde;
+        this.tipoCafe="exportacion";
     }
 
     @Override
