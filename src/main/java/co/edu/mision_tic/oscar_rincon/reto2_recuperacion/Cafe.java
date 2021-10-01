@@ -62,14 +62,12 @@ public class Cafe {
 
         } else if (this.peso > 19 && this.peso < 49) {
             adicion += 50;
-        }
-        else if (this.peso > 49 && this.peso < 80) {
+        } else if (this.peso > 49 && this.peso < 80) {
             adicion += 80;
-        }
-        else if (this.peso>79 ) {
+        } else if (this.peso > 79) {
             adicion += 100;
         }
-        
+
         return precioBase + adicion;
 
     }
